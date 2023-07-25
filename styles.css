@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+h1{
+	text-align: center;
+}
+#verification_subtext{
+	font-size:15px;
+	text-align:center;
+	color:grey;
+}
+.code-container{
+	display: flex;
+	justify-content: center;
+	gap: 40px 20px;
+	margin-top: 40px;
+	
+}
+.code{
+	width: 40px;
+	height: 40px;
+	align-items: center;
+	border: 0.01px solid grey; ;
+    border-radius: 5px;
+	text-align: center;
+}
+
+.code:focus{
+	outline: none;
+
+}
+
+#last-text{
+	font-size: 15px;
+	background-color: #D9DDDc;
+	color: grey;
+	text-align: center;
+	
+	margin: 40px 110px;
+}
+
+
+
+
+
+
