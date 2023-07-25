@@ -22,11 +22,12 @@ let input = document.getElementsById('code');
 				if(nextElement) {
 					nextElement.focus();
 				}
-				else{
+				
+			}
+			else{
 					console.log(event.target.value);
 					event.target.value = "";
 				}
-			}
 			
 		}
 })
