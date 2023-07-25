@@ -1,5 +1,5 @@
 //your JS code here. If required.
-let input = document.getElementsById('code');
+let input = document.getElementsByClassName('code');
 
 	for(let i=0; i< input.length; i++){
 		input[i].addEventListener('keyup', (event) =>{
@@ -13,6 +13,7 @@ let input = document.getElementsById('code');
 				 if(prevElement){
 					 prevElement.focus();
 				 }
+			  return;
 		  }
 			// check the input is digit or not
 			let code = event.key.charCodeAt(0);
