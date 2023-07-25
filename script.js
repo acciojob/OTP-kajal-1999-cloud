@@ -29,6 +29,6 @@ let input = document.getElementsByClassName('code');
 					console.log(event.target.value);
 					event.target.value = "";
 				}
-			
+			})
 		}
-})
+
